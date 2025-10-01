@@ -1,0 +1,9 @@
+SONAR_TOKEN
+
+59dcbe311d4432b0be90929095cc6a76df421498
+
+<properties>
+  <sonar.organization>alexsi2</sonar.organization>
+</properties>
+
+mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=alexsi2_monopolycilab
